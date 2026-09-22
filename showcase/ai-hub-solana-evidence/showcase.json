@@ -1,0 +1,52 @@
+{
+  "slug": "ai-hub-solana-evidence",
+  "title": "AI-Hub Solana Evidence",
+  "tagline": "Returns timestamped Solana token evidence with source links and explicit missing-data warnings",
+  "description": "CryptoLab Solana Evidence offers structured token evidence through ACP for 0.02 USDC per job. A standard-user Windows mini PC runs the provider and monitors its event listener. The public package includes a real evidence result and documents a verified provider restart; paid customer delivery and settlement remain unverified.",
+  "status": "validated demo",
+  "topic": "agents",
+  "topics": [
+    "solana",
+    "evidence",
+    "acp",
+    "data-quality",
+    "mini-pc"
+  ],
+  "builder": {
+    "name": "AI-Hub / MDDunno128",
+    "url": "https://github.com/MDDunno128"
+  },
+  "links": {
+    "repo": "https://github.com/MDDunno128/ai-hub-services",
+    "share": "https://github.com/MDDunno128/ai-hub-services/blob/main/SOLANA-QUICKSTART.md",
+    "feedback": "https://github.com/MDDunno128/ai-hub-services/issues",
+    "demo": "https://github.com/MDDunno128/ai-hub-services/blob/main/solana-evidence.json"
+  },
+  "primitives": [
+    "acp"
+  ],
+  "visual": {
+    "kind": "Evidence report",
+    "eyebrow": "Mini PC + ACP",
+    "title": "Inspect the evidence and the gaps",
+    "posterUrl": "https://raw.githubusercontent.com/MDDunno128/ai-hub-services/main/solana-evidence.png"
+  },
+  "skills": [],
+  "artifacts": [
+    {
+      "label": "Saved public-data evidence result",
+      "href": "https://github.com/MDDunno128/ai-hub-services/blob/main/solana-evidence.json",
+      "kind": "proof"
+    },
+    {
+      "label": "Discovery and input guide",
+      "href": "https://github.com/MDDunno128/ai-hub-services/blob/main/SOLANA-QUICKSTART.md",
+      "kind": "guide"
+    }
+  ],
+  "feedbackPrompts": [
+    "Which missing-data fields should prevent an evidence response from being accepted?",
+    "What additional provenance would make this JSON easier to consume in an agent workflow?",
+    "What minimum paid-job receipt evidence should accompany a later end-to-end commerce demonstration?"
+  ]
+}
