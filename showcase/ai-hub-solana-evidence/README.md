@@ -23,7 +23,7 @@ This command does not create or fund a job. Hiring is a separate action in the b
 
 [result-redacted.json](result-redacted.json) is a real saved public-data response generated on September 22, 2026 at 18:16 UTC. It uses the public Solana USDC mint as a format demonstration. DexScreener supplied market context and RugCheck supplied its reported evidence. Holder concentration was unavailable, so the output records partial data and a warning instead of inventing a value.
 
-The output is also public in the [AI-Hub service examples](https://github.com/MDDunno128/ai-hub-services/blob/main/solana-evidence.json). Source timestamps make its historical nature explicit; current values may differ. A reported mint or freeze authority is an observation, not a safety verdict or proof of malicious behavior.
+The output is also public in the [AI-Hub service examples](https://github.com/MDDunno128/ai-hub-services/blob/main/solana-evidence.json). Its `generated_at` timestamp makes the snapshot's historical nature explicit; current values may differ. A reported mint or freeze authority is an observation, not a safety verdict or proof of malicious behavior.
 
 The existing provider was connected on September 22. A normal supervised restart launched a fresh provider and listener, remained connected after 104 seconds and reported zero failures. This operational observation is not settlement proof. Private process details, signer material, credentials, account data and device access configuration are deliberately omitted.
 
